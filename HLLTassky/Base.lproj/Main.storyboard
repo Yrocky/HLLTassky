@@ -135,7 +135,7 @@
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qie-Z6-hPK" userLabel="Detail Container View">
                                                 <rect key="frame" x="80" y="0.0" width="600" height="600"/>
                                                 <connections>
-                                                    <segue destination="FAb-h0-rRX" kind="embed" id="kD0-Ey-SU5"/>
+                                                    <segue destination="FAb-h0-rRX" kind="embed" identifier="DetailViewSegue" id="kD0-Ey-SU5"/>
                                                 </connections>
                                             </containerView>
                                         </subviews>

@@ -42,7 +42,6 @@
     [cell configureCellWithTitle:self.titles[indexPath.row]];
     cell.contentView.backgroundColor = [UIColor colorWithWhite:0.1 * indexPath.row alpha:1];
     return cell;
-    
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
