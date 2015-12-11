@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HLLHamburgerView.h
 //  HLLTassky
 //
 //  Created by admin on 15/12/11.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HLLHamburgerView : UIView
 
 @end

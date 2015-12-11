@@ -15,6 +15,10 @@
 		84BAE6BA1C1AB64D00422A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE6B81C1AB64D00422A1F /* LaunchScreen.storyboard */; };
 		84BAE6C51C1AB64D00422A1F /* HLLTasskyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6C41C1AB64D00422A1F /* HLLTasskyTests.m */; };
 		84BAE6D01C1AB64D00422A1F /* HLLTasskyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6CF1C1AB64D00422A1F /* HLLTasskyUITests.m */; };
+		84BAE6DF1C1AB87100422A1F /* HLLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6DE1C1AB87100422A1F /* HLLContainerViewController.m */; };
+		84BAE6E21C1ABB7300422A1F /* HLLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6E11C1ABB7300422A1F /* HLLDetailViewController.m */; };
+		84BAE6E51C1ABEDC00422A1F /* HLLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6E41C1ABEDC00422A1F /* HLLCell.m */; };
+		84BAE6E81C1AC04300422A1F /* HLLHamburgerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE6E71C1AC04300422A1F /* HLLHamburgerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		84BAE6CB1C1AB64D00422A1F /* HLLTasskyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLTasskyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BAE6CF1C1AB64D00422A1F /* HLLTasskyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLTasskyUITests.m; sourceTree = "<group>"; };
 		84BAE6D11C1AB64D00422A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BAE6DD1C1AB87100422A1F /* HLLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLContainerViewController.h; sourceTree = "<group>"; };
+		84BAE6DE1C1AB87100422A1F /* HLLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLContainerViewController.m; sourceTree = "<group>"; };
+		84BAE6E01C1ABB7300422A1F /* HLLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDetailViewController.h; sourceTree = "<group>"; };
+		84BAE6E11C1ABB7300422A1F /* HLLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDetailViewController.m; sourceTree = "<group>"; };
+		84BAE6E31C1ABEDC00422A1F /* HLLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCell.h; sourceTree = "<group>"; };
+		84BAE6E41C1ABEDC00422A1F /* HLLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCell.m; sourceTree = "<group>"; };
+		84BAE6E61C1AC04300422A1F /* HLLHamburgerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHamburgerView.h; sourceTree = "<group>"; };
+		84BAE6E71C1AC04300422A1F /* HLLHamburgerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHamburgerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,16 @@
 			children = (
 				84BAE6AD1C1AB64D00422A1F /* AppDelegate.h */,
 				84BAE6AE1C1AB64D00422A1F /* AppDelegate.m */,
+				84BAE6DD1C1AB87100422A1F /* HLLContainerViewController.h */,
+				84BAE6DE1C1AB87100422A1F /* HLLContainerViewController.m */,
 				84BAE6B01C1AB64D00422A1F /* ViewController.h */,
 				84BAE6B11C1AB64D00422A1F /* ViewController.m */,
+				84BAE6E01C1ABB7300422A1F /* HLLDetailViewController.h */,
+				84BAE6E11C1ABB7300422A1F /* HLLDetailViewController.m */,
+				84BAE6E31C1ABEDC00422A1F /* HLLCell.h */,
+				84BAE6E41C1ABEDC00422A1F /* HLLCell.m */,
+				84BAE6E61C1AC04300422A1F /* HLLHamburgerView.h */,
+				84BAE6E71C1AC04300422A1F /* HLLHamburgerView.m */,
 				84BAE6B31C1AB64D00422A1F /* Main.storyboard */,
 				84BAE6B61C1AB64D00422A1F /* Assets.xcassets */,
 				84BAE6B81C1AB64D00422A1F /* LaunchScreen.storyboard */,
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BAE6E51C1ABEDC00422A1F /* HLLCell.m in Sources */,
+				84BAE6E81C1AC04300422A1F /* HLLHamburgerView.m in Sources */,
 				84BAE6B21C1AB64D00422A1F /* ViewController.m in Sources */,
+				84BAE6DF1C1AB87100422A1F /* HLLContainerViewController.m in Sources */,
 				84BAE6AF1C1AB64D00422A1F /* AppDelegate.m in Sources */,
 				84BAE6AC1C1AB64D00422A1F /* main.m in Sources */,
+				84BAE6E21C1ABB7300422A1F /* HLLDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
